@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
-import styles from "@/styles/layout.scss";
+import "/styles/layout.scss";
+import "/styles/recipe_category_layout.scss"
 import Header from "/components/Constants/Header"
 import Footer from "/components/Constants/Footer"
 

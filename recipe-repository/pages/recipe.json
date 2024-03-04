@@ -1,0 +1,719 @@
+[
+    {
+        "id": 1,
+        "name": "Pan cakes",
+        "image": "public/breakfast/pancake.jpg",
+        "description": "A pancake is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter. It is a type of batter bread.",
+        "ingredients": [
+            "1 ½ cups all-purpose flour",
+            "3 ½ teaspoons baking powder",       
+            "1 tablespoon white sugar",      
+            "¼ teaspoon salt, or more to taste",        
+            "1 ¼ cups milk", 
+            "3 tablespoons butter, melted",
+            "1 egg"
+        ],
+        "prepSteps": [
+            "1. Sift flour, baking powder, sugar, and salt together in a large bowl. Make a well in the center and add milk, melted butter, and egg, mix until smooth.",
+            "2. Heat a lightly oiled griddle or pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake; cook until bubbles form and the edges are dry, about 2 to 3 minutes. Flip and cook until browned on the other side. Repeat with remaining batter."
+        ],
+        "cookingTime": "15 mins",
+        "servingSize": "1-2",
+        "classification": {
+            "cuisineType": "Western Cuisine",
+            "originPlace": "Ancient Greece"
+        },
+        "nutritionFacts": {
+            "calories": "158",
+            "carbohydrates": "22g",
+            "protein": "5g",
+            "fat": "6g",
+            "saturated": "3g",
+            "cholesterol": "38mg",
+            "sodium": "504mg",
+            "potassium": "92mg",
+            "fiber": "1g",
+            "vitaminA": "0mg",
+            "vitaminC": "0mg",
+            "calcium": "140mg",
+            "iron": "1mg"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Tortang Talong",
+        "image": "public/breakfast/torta.jpg",
+        "description": "Tortang talong, also known as eggplant omelet, is an omelet or fritter from Filipino cuisine made by pan-frying grilled whole eggplants dipped in an egg mixture. It is a popular breakfast and lunch meal in the Philippines.",
+        "ingredients": [
+            "4 pieces Chinese eggplant",
+            "2 pieces raw eggs", 
+            "1 teaspoon salt", 
+            "6 tablespoons cooking oil"
+        ],
+        "prepSteps": [
+            "1. Grill the eggplant until the color of skin turns almost black.",
+            "2. Let the eggplant cool for a while then peel off the skin. Set aside.",
+            "3. Crack the eggs and place in a bowl.",
+            "4. Add salt and beat.",
+            "5. Place the eggplant on a flat surface and flatten using a fork.",
+            "6. Dip the flattened eggplant in the beaten egg mixture.",
+            "7. Heat the pan and pour the cooking oil.",
+            "8. Fry the eggplant (that was dipped in the beaten mixture). Makes sure that both sides are cooked. Frying time will take you about 3 to 4 minutes per side on medium heat."
+        ],
+        "cookingTime": "27 minutes",
+        "servingSize": "2-3",
+        "classification": {
+            "cuisineType": "Filipino Cuisine",
+            "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+            "calories": "187",
+            "carbohydrates": "1g",
+            "protein": "1g",
+            "fat": "21g",
+            "saturated": "2g",
+            "cholesterol": "2mg",
+            "sodium": "582mg",
+            "potassium": "3mg",
+            "fiber": "1g",
+            "vitaminA": "3IU",
+            "vitaminC": "1mg",
+            "calcium": "1mg",
+            "iron": "1mg"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Pandesal",
+        "image": "public/breakfast/pandesal.png",
+        "description": "Pan de sal which is Spanish for bread of salt is traditionally made with wheat flour, yeast, water, and a pinch of salt added to the dough. Over the years, ingredients such as eggs, milk, and butter were incorporated into the basic recipe resulting in a sweeter-than-salty flavor.",
+        "ingredients": [
+            "4 pieces Chinese eggplant", 
+            "2 pieces raw eggs", 
+            "1 teaspoon salt", 
+            "6 tablespoons cooking oil"
+        ],
+        "prepSteps": [
+            "1. In a stand mixer bowl, combine water and yeast. Allow to sit for 10 minutes or until the mixture becomes bubbly. Stir well.",
+            "2. In a small bowl, combine milk, butter, eggs, sugar, and salt. Stir together until incorporated.",
+            "3. Add milk mixture and 2 cups flour to yeast mixture. Using a dough hook, beat to combine.",
+            "4. Gradually add the remaining 2 ¼ cups flour in ½ cup increments and continue to combine all ingredients.",
+            "5. On a lightly floured surface, turn over dough and knead, sparingly adding the remaining ¼ cup flour as necessary, for about 10 minutes or until smooth, supple, and elastic.",
+            "6. In a lightly oiled large bowl, place dough. Cover with film and allow to rise for about 1 to 1 ½ hours or until double in size.",
+            "7. On a lightly floured surface, transfer dough and divide into 24 pieces. Shape each piece into a ball and roll on breadcrumbs to coat.",
+            "8. Arrange balls about 1-inch apart on a lightly greased baking sheet. Cover with a cloth and allow to rise for about 1 to 1 ½ hours or until double in size.",
+            "9. Meanwhile, preheat oven to 350 F.",
+            "10. Bake in the preheated oven for about 15 to 20 minutes or until golden brown. Serve hot."
+        ],
+        "cookingTime": "3hours hrs 50minutes mins",
+        "servingSize": "2-3",
+        "classification": {
+        "cuisineType": "Filipino Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "138",
+        "carbohydrates": "24g",
+        "protein": "3g",
+        "fat": "2g",
+        "saturated": "1g",
+        "cholesterol": "19mg",
+        "sodium": "91mg",
+        "potassium": "47mg",
+        "fiber": "0",
+        "vitaminA": "95IU",
+        "vitaminC": "0",
+        "calcium": "22mg",
+        "iron": "1.3mg"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Lugaw",
+        "image": "public/breakfast/lugaw.jpg",
+        "description": "Lugaw, also spelled lugao, is a Filipino glutinous rice dish or porridge. Lugaw may refer to various dishes, both savory and sweet. In Visayan regions, savory lugaw are collectively referred to as pospas. Lugaw is widely regarded as a comfort food in the Philippines",
+        "ingredients": [
+            "FOR THE LUGAW:", "1 medium yellow onion", 
+            "6 cloves garlic", 
+            "1 (4-inch) piece fresh ginger", 
+            "3 medium scallions", 
+            "1 1/2 pounds bone-in chicken thighs or drumsticks", 
+            "1 1/2 teaspoons kosher salt", 
+            "1/2 teaspoon freshly ground black pepper", 
+            "1 tablespoon vegetable oil", 
+            "1 cup uncooked long-grain jasmine rice", 
+            "8 cups low-sodium chicken broth", 
+            "Fish sauce and calamansi or lime juice or extract, for seasoning, Lime wedges, for serving (optional)", 
+            "FOR THE PORK CRUMBLES:", 
+            "2 tablespoons fish sauce", 
+            "2 tablespoons granulated sugar", 
+            "1 teaspoon calamansi juice or extract, or lime juice", 
+            "1/2 teaspoon freshly ground, black pepper", "1 tablespoon vegetable oil", 
+            "8 ounces ground pork", 
+            "FOR THE CRISPY GARLIC:", 
+            "10 cloves garlic", 
+            "1/2 cup vegetable oil"
+        ],
+        "prepSteps": [
+            "MAKE THE LUGAW:",
+            "1. Prepare the aromatics. Finely chop 1 medium yellow onion and 6 garlic cloves. Peel a 4-inch piece fresh ginger. Slice half the ginger into 1/4-inch-thick slices. Very finely chop the remaining 2 inches ginger. Thinly slice 3 medium scallions, keeping the whites and greens separate. Refrigerate the chopped ginger and scallion greens.",
+            "2. Prepare the chicken. Pat 1 1/2 pounds chicken dry with paper towels. Season with 1 1/2 teaspoons kosher salt and 1/2 teaspoon black pepper.",
+            "3. Sear the chicken. Heat 1 tablespoon vegetable oil in a Dutch oven or heavy-bottomed pot over medium-high heat until shimmering. Add the chicken skin-side down and sear until the skin is deep golden brown, about 5 minutes. Transfer to a plate.",
+            "4. Cook the aromatics. Reduce the heat to medium. Add the onion, garlic, scallion whites, and sliced ginger. Cook, stirring occasionally, until the onions are translucent and tender, about 5 minutes.",
+            "5. Add the rice. Add 1 cup jasmine rice and stir until combined and the rice is coated in fat.",
+            "6. Add the chicken and broth. Return the chicken and any accumulated juices on the plate to the pot. Add 8 cups chicken broth and bring to a boil, stirring occasionally.",
+            "7. Simmer the lugaw for 90 minutes. Reduce the heat to maintain a simmer and cook, stirring occasionally and scraping the bottom to prevent rice from sticking, until the rice is very broken down and creamy and the chicken is fall-off-the-bone tender, about 1 1/2 hours. If the lugaw is too thick at this point (like risotto), add enough water to reach the desired consistency.",
+            "Meanwhile, make the pork crumbles and fried garlic.",
+            "8. MAKE THE PORK CRUMBLES:",
+            "9. Combine the seasoning. Place 2 tablespoons fish sauce, 2 tablespoons granulated sugar, 1 teaspoon calamansi or lime juice or extract, and 1/2 teaspoon black pepper in a small bowl and stir until the sugar is mostly dissolved.",
+            "10. Cook the ground pork. Heat 1 tablespoon vegetable oil in a medium skillet over medium-high heat until shimmering. Add 8 ounces ground pork and cook, breaking up the pork into small pieces, until cooked through and browned, 4 to 5 minutes.",
+            "11. Add the seasoning. Add the fish sauce mixture and cook until the liquid has evaporated, and the pork deepens in color and begins to caramelize, 4 to 5 minutes. Transfer to a plate.",
+            "MAKE THE CRISPY GARLIC:",
+            "12. Prepare the garlic. Fit a fine-mesh strainer over a small heat-proof bowl or measuring cup. Very finely chop 10 garlic cloves.",
+            "13. Cook the garlic. Place the garlic in a small saucepan, add 1/2 cup vegetable oil, and cook on medium heat until the garlic is deep golden brown, 5 to 6 minutes.",
+            "14. Strain the garlic. Immediately pour the mixture through the strainer. Transfer the crispy garlic to a paper towel-lined plate. Reserve the garlic oil for another use.",
+            "FINISH AND SERVE THE LUGAW:",
+            "15. Shred the chicken. When the lugaw is ready, remove and discard the ginger slices. Transfer the chicken to a plate or clean cutting board. When cool enough to handle, remove, and shred the meat from the chicken. Discard the bones, skins, and cartilage. Return the chicken to the lugaw.",
+            "16. Season and serve. Taste and season the lugaw with fish sauce and calamansi juice if desired. Serve the lugaw in bowls, garnished with the scallion greens, chopped ginger, pork crumbles, crispy garlic, and lime wedges if desired."
+        ],
+        "cookingTime": "38minutes minutes",
+        "servingSize": "1-2",
+        "classification": {
+        "cuisineType": "Filipino Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "449",
+        "carbohydrates": "29.2g",
+        "protein": "26.2g",
+        "fat": "25.3g",
+        "saturated": "6.8g",
+        "cholesterol": "0",
+        "sodium": "866.8mg",
+        "potassium": "0",
+        "fiber": "0.9g",
+        "vitaminA": "0",
+        "vitaminC": "0",
+        "calcium": "0",
+        "iron": "0"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Champorado",
+        "image": "public/breakfast/champorado.jpg",
+        "description": "Champorado or tsampurado is a sweet chocolate rice porridge in Philippine cuisine.",
+        "ingredients": [
+            "1 cup glutinous rice",
+            "2 1/2 cups water, add more if it gets too dry", 
+            "1/2 cup pure cocoa", 
+            "1/2 cup sugar"
+        ],
+        "prepSteps": [
+            "1. In a pan heat rice and water on medium to medium-high heat until fully cooked.",
+            "2. Add cocoa, then sugar and mix well."
+        ],
+        "cookingTime": "20 minutes",
+        "servingSize": "2",
+        "classification": {
+            "cuisineType": "Filipino Cuisine",
+            "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+            "calories": "585",
+            "carbohydrates": "138g",
+            "protein": "11g",
+            "fat": "3g",
+            "saturated": "2g",
+            "cholesterol": "0",
+            "sodium": "11mg",
+            "potassium": "399mg",
+            "fiber": "10g",
+            "vitaminA": "0",
+            "vitaminC": "0",
+            "calcium": "38mg",
+            "iron": "4"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Ginisang Munggo",
+        "image": "public/lunch/ginisangmunggo.jpg",
+        "description": "Mung bean soup, also known as Ginisang Munggo, is a savory Filipino soup made with mung beans, garlic, tomatoes, onions, malunngay (moringa leaves), and seasoned with fish sauce (patis). Traditional versions are often cooked with various meats such as pork, fish (tinapa or daing), or other seafoods like shrimp. Our vegan version of this Filipino classic is made with 8 simple ingredients yet still rich in fiber and protein.",
+        "ingredients": [
+            "1 cup whole monggo beans", 
+            "4 cups water", 
+            "2 tbsp vegetable cooking oil", 
+            "5 cloves garlic, mashed", 
+            "1 pc medium-sized onion, chopped", 
+            "3 pcs medium-sized red tomatoes, chopped", 
+            "1/4-kilogram pork strips", 
+            "2 pcs Knorr Pork Cube", 
+            "1/4 cup ampalaya, sliced very thinly (optional)", 
+            "1 cup malunggay leaves", 
+            "topping: 1/2 cup crushed pork chicharon (optional)"
+        ],
+        "prepSteps": [
+            "1. Sort and rinse the mung beans: Discard any shriveled or discolored beans as well as any dirt, rocks, or grit. Place the beans in a fine mesh strainer and run under cold water until the water runs clear and the beans are thoroughly rinsed.",
+            "2. Cook the beans: Add the drained mung beans to a large pot along with the water and bring to a boil. Once boiling, lower the heat, and continue to cook for 45-50 minutes or until the beans are soft and the skins have burst. Add additional water as needed.",
+            "3. Sauté the onions, garlic, and ginger: In a separate pot over medium heat, cook the onions, garlic, and ginger with a pinch of salt in oil or water if oil-free.",
+            "4. Add tomatoes: Cook for about 3 minutes or until soft. Mash the tomatoes with the back of the spoon.",
+            "5. Add cooked beans, fish sauce, Bouillon paste, and remaining water: Bring to a boiler and simmer for 10 minutes to meld the flavors.",
+            "6. Stir in moringa (malunngay). Cook for an additional couple of minutes or until the leaves are tender.",
+            "7. Serve: Ladle Ginisang Munggo into individual bowls and season with salt and pepper to taste.",
+            "Enjoy immediately while hot."
+        ],
+        "cookingTime": " 1hour hr 20minutes mins",
+        "servingSize": "3-4",
+        "classification": {
+        "cuisineType": "Philippine Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "140 cal",
+        "carbohydrates": "27g",
+        "protein": "2g",
+        "fat": "2.5g",
+        "saturated": "2g",
+        "cholesterol": "0mg",
+        "sodium": "50mg",
+        "potassium": "0mg",
+        "fiber": "3g",
+        "vitaminA": "0%",
+        "vitaminC": "0%",
+        "calcium": "6%",
+        "iron": "10%"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Pork Menudo",
+        "image": "public/lunch/menudo.jpg",
+        "description": "Pork Menudo, also known as ginamay or ginagmay, is a traditional stew from the Philippines made with pork and sliced liver in tomato sauce with carrots and potatoes. Unlike the Mexican dish of the same name, it does not use tripe, hominy, or red chili sauce.",
+        "ingredients": [
+            "2 lbs. Chicken", 
+            "1 cup potatoes diced", 
+            "1 piece carrot cubed", 
+            "1/2 cup soy sauce", 
+            "1 piece onion chopped", 
+            "3 cloves garlic minced", 
+            "3/4 cup tomato sauce", 
+            "1 cup water", 
+            "4 pieces hotdogs sliced diagonally", 
+            "2 tablespoons cooking oil", 
+            "Red and Green Bell peppers", 
+            "Pineapple Juice", 
+            "Tomato paste", 
+            "Raisins", 
+            "Salt and pepper to taste"
+        ],
+        "prepSteps": [
+            "1. Combine chicken, soy sauce, and tomato paste in a bowl. Marinate for at least 1 hour.",
+            "2. Heat oil in a pan.",
+            "3. Saute garlic and onion.",
+            "4. Add the marinated chicken. Cook for 5 to 7 minutes.",
+            "5. Pour in tomato sauce, pineapple juice, and water and then add the bell peppers. Let boil and simmer for 30 minutes to an hour depending on the toughness of the chicken. Note: Add water as necessary.",
+            "6. Add-in the raisins and hot dogs. Cook for 5 minutes.",
+            "7. Put-in potatoes, carrots, salt, and pepper. Stir and cook for 8 to 12 minutes.",
+            "8. Serve. Share and enjoy!"
+        ],
+        "cookingTime": "1 hour",
+        "servingSize": "3-4",
+        "classification": {
+        "cuisineType": "Philippines Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "524",
+        "carbohydrates": "12g",
+        "protein": "33g",
+        "fat": "37g",
+        "saturated": "12g",
+        "cholesterol": "161g",
+        "sodium": "1356mg",
+        "potassium": "857mg",
+        "fiber": "2g",
+        "vitaminA": "5035IU",
+        "vitaminC": "14.6mg",
+        "calcium": "52mg",
+        "iron": "4.3mg"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Chicken Afritada",
+        "image": "public/lunch/afritada.jpg",
+        "description": "Chicken Afritada or afritadang manok is a type of Filipino chicken stew with tomato based sauced. It is a simple dish that can be cooked on regular days. It is perfect for lunch and is better when eaten with warm white rice. The basic version includes carrots and potato.",
+        "ingredients": [
+            "1 ½ lbs. Chicken cut into serving pieces", 
+            "2-piece potato cubed", "1 piece carrot sliced", 
+            "8 oz. tomato sauce", 
+            "3 pieces hotdog sliced", 
+            "½ cup green peas", 
+            "3 pieces bay leaves", 
+            "1-piece red onion chopped", 
+            "2 teaspoons garlic minced", 
+            "3 cups chicken broth", 
+            "½ teaspoon sugar", 
+            "3 tablespoons cooking oil", 
+            "Salt and ground black pepper to taste"
+        ],
+        "prepSteps": [
+            "1. Heat the oil in a cooking pot. Saute onion and garlic until the onion softens.",
+            "2. Add chicken. Cook for 30 seconds. Turn it over and cook the other side for another 30 seconds.",
+            "3. Pour tomato sauce and chicken broth. Cover. Let boil.",
+            "4. Add dried bay leaves. Cover the cooking pot. Continue to cook in medium heat for 30 minutes.",
+            "5. Add hotdogs and carrot. Cook for 3 minutes.",
+            "6. Add potato. Cover the pot and cook for 8 minutes.",
+            "7. Add green peas. Cook for 2 minutes.",
+            "8. Season with salt and ground black pepper.",
+            "9. Serve!"
+        ],
+        "cookingTime": " 45minutes minutes ",
+        "servingSize": "3-4",
+        "classification": {
+        "cuisineType": "Philippine Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "583",
+        "carbohydrates": "25g",
+        "protein": "37g",
+        "fat": "37g",
+        "saturated": "8g",
+        "cholesterol": "127mg",
+        "sodium": "1089mg",
+        "potassium": "1223mg",
+        "fiber": "5g",
+        "vitaminA": "3215IU",
+        "vitaminC": "42.2mg",
+        "calcium": "93mg",
+        "iron": "6.5mg"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Fried Chicken",
+        "image": "public/lunch/friedchicken.jpg",
+        "description": "Fried chicken is chicken pieces coated in seasoned flour or batter and then pan-fried, deep fried, pressure fried, or air fried. The breading gives the chicken a crispy crust while keeping the meat juicy. The ideal fried chicken is crispy on the outside and has a flavorful crust that complements the tender meat.",
+        "ingredients": [
+            "1 (4 pound) chicken, cut into pieces", 
+            "1 cup buttermilk", 
+            "2 cups all-purpose flour for coating", 
+            "1 teaspoon paprika", 
+            "salt and pepper to taste", 
+            "2 quarts vegetable oil for frying."
+        ],
+        "prepSteps": [
+            "1. Take your cut up chicken pieces and skin them if you prefer.",
+            "2. Put the flour in a large plastic bag (let the amount of chicken you are cooking dictate the amount of flour you use). Season the flour with paprika, salt and pepper to taste (paprika helps to brown the chicken).",
+            "3. Dip chicken pieces in buttermilk then, a few at a time, put them in the bag with the flour, seal the bag and shake to coat well.",
+            "4. Place the coated chicken on a cookie sheet or tray, and cover with a clean dish towel or waxed paper. LET SIT UNTIL THE FLOUR IS OF A PASTE-LIKE CONSISTENCY. THIS IS CRUCIAL!",
+            "5. Fill a large skillet (cast iron is best) about 1/3 to 1/2 full of vegetable oil. Heat until VERY hot.",
+            "6. Put in as many chicken pieces as the skillet can hold. Brown the chicken in HOT oil on both sides.",
+            "7. When browned, reduce heat and cover skillet; let cook for 30 minutes (the chicken will be cooked through but not crispy). Remove cover, raise heat again, and continue to fry until crispy.",
+            "8. Drain the fried chicken on paper towels. Depending on how much chicken you have, you may have to fry in a few shifts. Keep the finished chicken in a slightly warm oven while preparing the rest."
+        ],
+        "cookingTime": " 35 mins ",
+        "servingSize": "4-5",
+        "classification": {
+        "cuisineType": "Western Cuisine",
+        "originPlace": "USA"
+        },
+        "nutritionFacts": {
+        "calories": "246",
+        "carbohydrates": "1.8g",
+        "protein": "30g",
+        "fat": "12g",
+        "saturated": "3.3g",
+        "cholesterol": "87mg",
+        "sodium": "77mg",
+        "potassium": "239mg",
+        "fiber": "0.1g",
+        "vitaminA": "0",
+        "vitaminC": "0",
+        "calcium": "1%",
+        "iron": "6%"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Dinuguan",
+        "image": "public/lunch/dinuguan.jpg",
+        "description": "Dinuguan is a Filipino savory stew usually of pork offal and/or meat simmered in a rich, spicy dark gravy of pig blood, garlic, chili, and vinegar.",
+        "ingredients": [
+            "10 ounces pork blood", 
+            "1 cup vinegar", 
+            "1 tablespoon canola oil", 
+            "1 onion, peeled and chopped", 
+            "4 cloves garlic, peeled and minced", 
+            "1 thumb-size ginger (about 1 tablespoon), peeled and minced", 
+            "2 pounds pork belly, cut into ½-inch strips", 
+            "1 tablespoon fish sauce", 
+            "1 cup water", 
+            "1 tablespoon brown sugar", 
+            "2 finger chilies (siling haba)", 
+            "salt and pepper to taste."
+        ],
+        "prepSteps": [
+            "1. In a bowl, combine pig's blood and about 2 tablespoons of the vinegar. Stir well.",
+            "2. In a pot over medium heat, heat oil. Add onions, garlic, and ginger and cook until softened.",
+            "3. Add pork and cook, stirring occasionally, until lightly browned.",
+            "4. Add fish sauce and cook for about 1 to 2 minutes.",
+            "5. Add vinegar and bring to a boil. Cook, uncovered and without stirring, for about 3 to 5 minutes or until slightly reduced.",
+            "6. Add water and bring to a boil. Lower heat, cover, and continue to cook for about 15 to 20 minutes or until meat is tender.",
+            "7. Add pork blood, stirring to disperse and prevent lumps.",
+            "8. Add brown sugar and stir to dissolve.",
+            "9. Add chili peppers.",
+            "10. Continue to simmer for about 10 minutes or until sauce is thickened.",
+            "11. Season with salt and pepper to taste. Serve hot with rice or puto."
+        ],
+        "cookingTime": " 45minutes mins ",
+        "servingSize": "3-4",
+        "classification": {
+        "cuisineType": "Philippine Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "857",
+        "carbohydrates": "5g",
+        "protein": "18g",
+        "fat": "83g",
+        "saturated": "30g",
+        "cholesterol": "161mg",
+        "sodium": "302mg",
+        "potassium": "382mg",
+        "fiber": "1g",
+        "vitaminA": "3209IU",
+        "vitaminC": "3mg",
+        "calcium": "18mg",
+        "iron": "2mg"
+        }  
+    },
+    {
+        "id": 11,
+        "name": "Adobo",
+        "image": "public/dinner/adobo.jpg",
+        "description": "A popular dish that is treasured in Filipino cuisine and throughout the world. It's known for its savory, tangy, and totally unique blend of flavors. Despite its popularity, many people are still unfamiliar with adobo and what it really is.",
+        "ingredients": [
+            "2 tablespoons vegetable oil", 
+            "1 (3 pound) chicken, cut into pieces", 
+            "1 large onion, quartered and sliced", 
+            "2 tablespoons minced garlic", 
+            "⅔ cup low sodium soy sauce", 
+            "⅓ cup white vinegar", 
+            "1 tablespoon garlic powder", 
+            "2 teaspoons black pepper", 
+            "1 bay leaf"
+        ],
+        "prepSteps": [
+            "1. Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour.",
+            "2. Heat the pot and put-in the marinated pork belly then cook for a few minutes, pour remaining marinade including garlic.",
+            "3. Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour. Put-in the vinegar and simmer for 12 to 15 minutes. Add salt to taste. Serve hot. Share and enjoy!"
+        ],
+        "cookingTime": "30-45 minutes",
+        "servingSize": "6",
+        "classification": {
+        "cuisineType": "Philippine cuisine",
+        "originPlace": "Spain"
+        },
+        "nutritionFacts": {
+        "calories": "361",
+        "carbohydrates": "7g",
+        "protein": "33g",
+        "fat": "7g",
+        "saturated": "6g",
+        "cholesterol": "97mg",
+        "sodium": "1040mg",
+        "potassium": "392mg",
+        "fiber": "1g",
+        "vitaminA": "115IU",
+        "vitaminC": "3mg",
+        "calcium": "35mg",
+        "iron": "3mg"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Beef Nilaga",
+        "image": "public/dinner/beef-nilaga.jpg",
+        "description": "Beef nilaga is another one-meal-in-a-pot dish that's terrific during cooler weather. It contains soup, meat, and vegetables all cooked together in one delicious broth. Serve hot, either alone or with rice.",
+        "ingredients": [
+            "4 ½ pounds beef short ribs", 
+            "1 quart water", 
+            "2 onions, chopped", 
+            "1 tablespoon black peppercorns, crushed", 
+            "2 beef bouillon cubes", 
+            "2 potatoes, quartered", 
+            "1 chayote squash, peeled and quartered", 
+            "2 carrots, cut into chunks", 
+            "2 stalks celery, quartered", 
+            "salt to taste", 
+            "¼ head cabbage, cut into wedges"
+        ],
+        "prepSteps": [
+            "1. Place short ribs into a large pot with enough water to cover. Bring to a boil over high heat, then boil for 5 minutes; the ribs will not be fully cooked. Return ribs to the pot.",
+            "2. Pour in 1 quart water, then add onions, peppercorns, and bouillon cubes. Bring to a boil,then cover, reduce the heat, and simmer for 1 hour. Skim any fat floating on the surface.",          
+            "3. Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour. Put-in the vinegar and simmer for 12 to 15 minutes. Add salt to taste. Serve hot. Share and enjoy!"
+        ],
+        "cookingTime": "1 hr 40mins to 2hrs 10 mins",
+        "servingSize": "5",
+        "classification": {
+        "cuisineType": "Philippine Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "983",
+        "carbohydrates": "32g",
+        "protein": "43g",
+        "fat": "75g",
+        "saturated": "32g",
+        "cholesterol": "168mg",
+        "sodium": "491mg",
+        "potassium": "1182mg",
+        "fiber": "7g",
+        "vitaminA": "168IU ",
+        "vitaminC": "50mg",
+        "calcium": "108mg",
+        "iron": "6mg"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Tinola",
+        "image": "public/dinner/tinola.jpg",
+        "description": "A Filipino soup dish. It involves cooking chicken pieces in ginger broth. It is a popular cold weather dish. I always feel warm and cozy every time I eat it. This Filipino Chicken Soup is best enjoyed with fish sauce as dipping sauce, and a cup of warm white rice.",
+        "ingredients": [
+            "1 tablespoon cooking oil", 
+            "1 medium onion, chopped", 
+            "2 cloves garlic, minced", 
+            "1 (1 1/2 inch) piece fresh ginger, peeled and thinly sliced", 
+            "1 tablespoon fish sauce", 
+            "3 pounds chicken legs and thighs, rinsed and patted dry", 
+            "2 (14 ounce) cans chicken broth", 
+            "1 chayote squash, peeled and cut into bite-sized pieces", 
+            "salt and ground black pepper to taste", 
+            "1 head bok choy, chopped", 
+            "1 (8 ounce) package fresh spinach, chopped"
+        ],
+        "prepSteps": [
+            "1. Gather all ingredients. Heat oil in a large pot over medium heat. Add onion and garlic; cook and stir until fragrant for about 2 minutes.",
+            "2. Add ginger and fish sauce; cook and stir for 1 to 2 minutes. Stir in chicken and cook for 5 minutes. Ginger, fish sauce and chicken added to pot. Pour in chicken broth and cook for 5 minutes.",      
+            "3. Add squash and simmer until chicken is no longer pink in the center, about 10minutes. Season with salt and pepper. Chicken broth and squash added to pot, cooking until chicken is no longer pink.",        
+            "4. Add bok choy and spinach; cook until spinach is just wilted, 1 to 2 minutes. Serve hot."
+        ],
+        "cookingTime": "20 to 50 minutes.",
+        "servingSize": "4",
+        "classification": {
+        "cuisineType": "Philippine Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "532",
+        "carbohydrates": "14g",
+        "protein": "66g",
+        "fat": "23g",
+        "saturated": "6g",
+        "cholesterol": "208mg",
+        "sodium": "1551mg",
+        "potassium": "1207mg",
+        "fiber": "4g",
+        "vitaminA": "585IU",
+        "vitaminC": "76mg",
+        "calcium": "227mg",
+        "iron": "6mg"
+
+        }
+    },
+    {
+        "id": 14,
+        "name": "Bulalo",
+        "image": "public/dinner/bulalo.png",
+        "description": "A beef dish from the Philippines. It is a light colored soup that is made by cooking beef shanks and bone marrow until the collagen and fat has been melted into the clear broth. It typically includes leafy vegetables, corn on the cob, scallions, onions, garlic, ginger, and fish sauce.",
+        "ingredients": [
+            "2 lbs beef shank", 
+            "½ cabbage whole leaf individually detached", 
+            "1 bundle bok choy", 
+            "2 cobs corn each cut into 3 parts", 
+            "2 Tablespoons whole peppercorn", 
+            "1/2 cup green onions cut unto 1 1/2 inch pieces", 
+            "1 onion", 
+            "34 ounces water", 
+            "fish sauce to taste"
+        ],
+        "prepSteps": [
+            "1. Boil your beef shanks in water over medium heat, skimming the excess fats and scum that accumulate and float on the water. After 10 minutes, take your beef out and bring it under cold running water, “cleaning” it. Once you have removed the excess sediments and thrown out the used water,you can now start officially cooking your bulalo!",
+            "2. Pour 34 ounces (or about a liter) of water into a large cooking pot, bringing it to a boil. Once it starts boiling, it is time to put in your beef shank, followed by your medium sized onion and peppercorn. If you are using a pot, let the meat simmer for about an hour and a half. But for a pressure cooker you will only need about half an hour. Let your meat tenderize. Add in your corn.",            
+            "3. For this recipe I use 3 whole corns, but cut it up into 3 parts each for convenience. Keep the bulalo simmering for another 10 minutes.",
+            "4. After your 10 minutes are up, you can now add in your other vegetables: your cabbage, pechay, and green onion (or onion leeks). This is when you can also add in 2tablespoons of patis, but again, this is an optional step."
+        ],
+        "cookingTime": "2 hours",
+        "servingSize": "4",
+        "classification": {
+        "cuisineType": "Philippine Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "231",
+        "carbohydrates": "13g",
+        "protein": "32g",
+        "fat": "6g",
+        "saturated": "2g",
+        "cholesterol": "53mg",
+        "sodium": "122mg",
+        "potassium": "862mg",
+        "fiber": "5g",
+        "vitaminA": "276IU",
+        "vitaminC": "46mg",
+        "calcium": "118mg",
+        "iron": "4mg"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Sinigang",
+        "image": "public/dinner/sinigang.png",
+        "description": "A sour soup native to the Philippines. This recipe uses pork as the main ingredient. Other proteins and seafood can also be used. Beef, shrimp, fish are commonly used to cook sinigang.",
+        "ingredients": [
+            "2 lbs pork belly or buto-buto", 
+            "1 bunch spinach or kang-kong", 
+            "3 tablespoonsfish sauce", 
+            "12 pieces string beans sitaw, cut in 2 inch length", 
+            "2 pieces tomato quartered", 
+            "3 pieces chili or banana pepper", 
+            "1 tablespoons cooking oil", 
+            "2 quarts water", 
+            "1 piece onion sliced", 
+            "2 piecestaro gabi, quartered", 
+            "1 pack sinigang mix"
+        ],
+        "prepSteps": [
+            "1. Heat the pot and put-in the cooking oil then sauté the onion until its layers separate from each other.",
+            "2. Add the pork belly and cook until outer part turns light brown.",        
+            "3. Put-in the fish sauce and mix with the ingredients then pour the water and bring to a boil",        
+            "4. Add the taro and tomatoes then simmer for 40minutes or until pork is tender, Put-in the sinigang mix and chili, Add the string beans (and other vegetables if there are any) and simmer for 5 to 8 minutes.",        
+            "5. Put-in the spinach, turn off the heat, and cover the pot. Let the spinach cook using the remaining heat in the pot."
+        ],
+        "cookingTime": "1 hour",
+        "servingSize": "6",
+        "classification": {
+        "cuisineType": "Philippine Cuisine",
+        "originPlace": "Philippines"
+        },
+        "nutritionFacts": {
+        "calories": "892",
+        "carbohydrates": "18g",
+        "protein": "20g",
+        "fat": "83g",
+        "saturated": "29g",
+        "cholesterol": "108mg",
+        "sodium": "1067mg",
+        "potassium": "1070mg",
+        "fiber": "6g",
+        "vitaminA": "6710IU",
+        "vitaminC": "42.8mg",
+        "calcium": "157mg",
+        "iron": "4.5mg"
+        }
+    }
+]
