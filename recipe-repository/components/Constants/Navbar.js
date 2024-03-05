@@ -13,6 +13,8 @@ function Navbar(){
                 <li className="mobile-hidden"><Link href="#">BREAKFAST</Link></li>
                 <li className="mobile-hidden"><Link href="/category/lunch">LUNCH</Link></li>
                 <li className="mobile-hidden"><Link href="#">DINNER</Link></li>
+                <li className="mobile-hidden"><Link href="#">LUNCH</Link></li>
+                <li className="mobile-hidden"><Link href="/category/dinner">DINNER</Link></li>
             </ul>
         </nav>
         
