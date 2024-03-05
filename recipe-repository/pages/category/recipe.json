@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Pan cakes",
-        "image": "public/breakfast/pancake.jpg",
+        "image": "/breakfast/pancake.jpg",
         "description": "A pancake is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter. It is a type of batter bread.",
         "ingredients": [
             "1 ½ cups all-purpose flour",
@@ -42,7 +42,7 @@
     {
         "id": 2,
         "name": "Tortang Talong",
-        "image": "public/breakfast/torta.jpg",
+        "image": "/breakfast/torta.jpg",
         "description": "Tortang talong, also known as eggplant omelet, is an omelet or fritter from Filipino cuisine made by pan-frying grilled whole eggplants dipped in an egg mixture. It is a popular breakfast and lunch meal in the Philippines.",
         "ingredients": [
             "4 pieces Chinese eggplant",
@@ -85,7 +85,7 @@
     {
         "id": 3,
         "name": "Pandesal",
-        "image": "public/breakfast/pandesal.png",
+        "image": "/breakfast/pandesal.png",
         "description": "Pan de sal which is Spanish for bread of salt is traditionally made with wheat flour, yeast, water, and a pinch of salt added to the dough. Over the years, ingredients such as eggs, milk, and butter were incorporated into the basic recipe resulting in a sweeter-than-salty flavor.",
         "ingredients": [
             "4 pieces Chinese eggplant", 
@@ -130,7 +130,7 @@
     {
         "id": 4,
         "name": "Lugaw",
-        "image": "public/breakfast/lugaw.jpg",
+        "image": "/breakfast/lugaw.jpg",
         "description": "Lugaw, also spelled lugao, is a Filipino glutinous rice dish or porridge. Lugaw may refer to various dishes, both savory and sweet. In Visayan regions, savory lugaw are collectively referred to as pospas. Lugaw is widely regarded as a comfort food in the Philippines",
         "ingredients": [
             "FOR THE LUGAW:", "1 medium yellow onion", 
@@ -201,7 +201,7 @@
     {
         "id": 5,
         "name": "Champorado",
-        "image": "public/breakfast/champorado.jpg",
+        "image": "/breakfast/champorado.jpg",
         "description": "Champorado or tsampurado is a sweet chocolate rice porridge in Philippine cuisine.",
         "ingredients": [
             "1 cup glutinous rice",
@@ -238,7 +238,7 @@
     {
         "id": 6,
         "name": "Ginisang Munggo",
-        "image": "public/lunch/ginisangmunggo.jpg",
+        "image": "/lunch/ginisangmunggo.jpg",
         "description": "Mung bean soup, also known as Ginisang Munggo, is a savory Filipino soup made with mung beans, garlic, tomatoes, onions, malunngay (moringa leaves), and seasoned with fish sauce (patis). Traditional versions are often cooked with various meats such as pork, fish (tinapa or daing), or other seafoods like shrimp. Our vegan version of this Filipino classic is made with 8 simple ingredients yet still rich in fiber and protein.",
         "ingredients": [
             "1 cup whole monggo beans", 
@@ -288,7 +288,7 @@
     {
         "id": 7,
         "name": "Pork Menudo",
-        "image": "public/lunch/menudo.jpg",
+        "image": "/lunch/menudo.jpg",
         "description": "Pork Menudo, also known as ginamay or ginagmay, is a traditional stew from the Philippines made with pork and sliced liver in tomato sauce with carrots and potatoes. Unlike the Mexican dish of the same name, it does not use tripe, hominy, or red chili sauce.",
         "ingredients": [
             "2 lbs. Chicken", 
@@ -342,7 +342,7 @@
     {
         "id": 8,
         "name": "Chicken Afritada",
-        "image": "public/lunch/afritada.jpg",
+        "image": "/lunch/afritada.jpg",
         "description": "Chicken Afritada or afritadang manok is a type of Filipino chicken stew with tomato based sauced. It is a simple dish that can be cooked on regular days. It is perfect for lunch and is better when eaten with warm white rice. The basic version includes carrots and potato.",
         "ingredients": [
             "1 ½ lbs. Chicken cut into serving pieces", 
@@ -394,7 +394,7 @@
     {
         "id": 9,
         "name": "Fried Chicken",
-        "image": "public/lunch/friedchicken.jpg",
+        "image": "/lunch/friedchicken.jpg",
         "description": "Fried chicken is chicken pieces coated in seasoned flour or batter and then pan-fried, deep fried, pressure fried, or air fried. The breading gives the chicken a crispy crust while keeping the meat juicy. The ideal fried chicken is crispy on the outside and has a flavorful crust that complements the tender meat.",
         "ingredients": [
             "1 (4 pound) chicken, cut into pieces", 
@@ -439,7 +439,7 @@
     {
         "id": 10,
         "name": "Dinuguan",
-        "image": "public/lunch/dinuguan.jpg",
+        "image": "/lunch/dinuguan.jpg",
         "description": "Dinuguan is a Filipino savory stew usually of pork offal and/or meat simmered in a rich, spicy dark gravy of pig blood, garlic, chili, and vinegar.",
         "ingredients": [
             "10 ounces pork blood", 
@@ -493,7 +493,7 @@
     {
         "id": 11,
         "name": "Adobo",
-        "image": "public/dinner/adobo.jpg",
+        "image": "/dinner/adobo.jpg",
         "description": "A popular dish that is treasured in Filipino cuisine and throughout the world. It's known for its savory, tangy, and totally unique blend of flavors. Despite its popularity, many people are still unfamiliar with adobo and what it really is.",
         "ingredients": [
             "2 tablespoons vegetable oil", 
@@ -536,7 +536,7 @@
     {
         "id": 12,
         "name": "Beef Nilaga",
-        "image": "public/dinner/beef-nilaga.jpg",
+        "image": "/dinner/beef-nilaga.jpg",
         "description": "Beef nilaga is another one-meal-in-a-pot dish that's terrific during cooler weather. It contains soup, meat, and vegetables all cooked together in one delicious broth. Serve hot, either alone or with rice.",
         "ingredients": [
             "4 ½ pounds beef short ribs", 
@@ -581,7 +581,7 @@
     {
         "id": 13,
         "name": "Tinola",
-        "image": "public/dinner/tinola.jpg",
+        "image": "/dinner/tinola.jpg",
         "description": "A Filipino soup dish. It involves cooking chicken pieces in ginger broth. It is a popular cold weather dish. I always feel warm and cozy every time I eat it. This Filipino Chicken Soup is best enjoyed with fish sauce as dipping sauce, and a cup of warm white rice.",
         "ingredients": [
             "1 tablespoon cooking oil", 
@@ -628,7 +628,7 @@
     {
         "id": 14,
         "name": "Bulalo",
-        "image": "public/dinner/bulalo.png",
+        "image": "/dinner/bulalo.png",
         "description": "A beef dish from the Philippines. It is a light colored soup that is made by cooking beef shanks and bone marrow until the collagen and fat has been melted into the clear broth. It typically includes leafy vegetables, corn on the cob, scallions, onions, garlic, ginger, and fish sauce.",
         "ingredients": [
             "2 lbs beef shank", 
@@ -672,7 +672,7 @@
     {
         "id": 15,
         "name": "Sinigang",
-        "image": "public/dinner/sinigang.png",
+        "image": "/dinner/sinigang.png",
         "description": "A sour soup native to the Philippines. This recipe uses pork as the main ingredient. Other proteins and seafood can also be used. Beef, shrimp, fish are commonly used to cook sinigang.",
         "ingredients": [
             "2 lbs pork belly or buto-buto", 
