@@ -1,6 +1,73 @@
 .title{
+    background-color: #C9D7DD;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.lunch-container{
+    background-color: #C9D7DD;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    .lunch-title{
+        color: #637A9F;
+
+        h1{
+            color: #637A9F;
+            padding-left: 50px;
+            padding-top: 50px;
+            font-size: 55px;
+            font-family: arial;
+        }
+
+        p{
+            color: #637A9F;
+            padding-left: 50px;
+            padding-top: 15px;
+            font-size: 20px;
+            font-family: arial;
+    
+        }
+    }
+.lunch-recipe{
+    display: grid;
+    grid-gap: 2em;
+    border-radius: 10px; 
+    margin-bottom: 70px;
+    margin-top: 70px;
+    width: 0;
+    margin-left: 50px;
+
+    .recipe{
+        background-color: white;
+        color: #637A9F;
+        display: flex;
+        height: auto;
+        grid-gap: 2em;
+        height: 45vh;
+        width: 170vh;
+
+        h1{
+            font-family: arial;
+            text-align: right;            
+
+        }
+    }
+}
+}
+
+@media (max-width: 720px) {
+    
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+
+   
+}
+
+
+
