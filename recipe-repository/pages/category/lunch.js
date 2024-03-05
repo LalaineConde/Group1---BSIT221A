@@ -1,7 +1,5 @@
 import Header from "/components/Constants/Header"
 import Footer from "/components/Constants/Footer"
-import LunchCard from "@/components/Constants/LunchCard";
-import Image from "next/image";
 
 function lunch(){
     return(
