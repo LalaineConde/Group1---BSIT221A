@@ -4,3 +4,131 @@
     justify-content: center;
     align-items: center;
 }
+.title{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dinner-container{
+    background-color: #C9D7DD;
+    height: 100%;   
+    grid-gap: 2em;
+    
+    
+}
+.dinner-recipe{
+    
+    display: grid;
+    grid-gap: 2em;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    
+    
+}
+
+.dinner-title{
+    color: #637A9F;
+
+    h1{
+        color: #637A9F;
+        padding-left: 50px;
+        padding-top: 50px;
+        font-size: 55px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    p{
+        color:#637A9F;
+        padding-left: 50px;
+        padding-top: 15px;
+        font-size: 20px;
+        font-family: arial;
+    }
+}
+
+.first-recipe{
+    background-color: white;
+    color: #637A9F;
+    height: 35vh;
+    width: 50%;
+    border-radius: 5px;
+    grid-gap: 2em;
+    margin-left: 350px;
+    
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-family: arial;
+    }
+}
+.second-recipe{
+    background-color: white;
+    color: #637A9F;
+    height: 35vh;
+    width: 50%;
+    border-radius: 5px;
+    grid-gap: 2em;
+    margin-left: 350px;
+    
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-family: arial;
+    }
+}
+.third-recipe{
+    background-color: white;
+    color: #637A9F;
+    height: 35vh;
+    width: 50%;
+    border-radius: 5px;
+    grid-gap: 2em;
+    margin-left: 350px;
+    
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-family: arial;
+    }
+}
+.fourth-recipe{
+    background-color: white;
+    color: #637A9F;
+    height: 35vh;
+    width: 50%;
+    border-radius: 5px;
+    grid-gap: 2em;
+    margin-left: 350px;
+    
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-family: arial;
+    }
+}
+.fifth-recipe{
+    background-color: white;
+    color: #637A9F;
+    height: 35vh;
+    width: 50%;
+    border-radius: 5px;
+    grid-gap: 2em;
+    margin-left: 350px;
+    
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-family: arial;
+    }
+}
