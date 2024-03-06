@@ -1,34 +1,44 @@
-import Header from "/components/Constants/Header"
-import Footer from "/components/Constants/Footer"
+import React from 'react';
+import Header from "/components/Constants/Header";
+import Footer from "/components/Constants/Footer";
+import recipes from "./recipe.json";
 
-function lunch(){
-    return(
-        <>
-        <Header/>
-        <div className="lunch-container">
-            <div className="lunch-title">
-                <h1>Lunch</h1>
-                <p>Enhance your midday break with our suggested lunch recipes, offering a delicious mix of flavors to satisfy your cravings.</p>
-                
-            </div>
-            <div className="lunch-recipe">
-                <div className="recipe">
-                    <h1>Ginisang Munggo</h1>
-                </div>
-                <div className="recipe">
-                    <h1>Ginisang Munggo</h1>
-                </div><div className="recipe">
-                    <h1>Ginisang Munggo</h1>
-                </div><div className="recipe">
-                    <h1>Ginisang Munggo</h1>
-                </div><div className="recipe">
-                    <h1>Ginisang Munggo</h1>
-                </div>
-            </div>
-        </div>
-        <Footer/>
-        </>
-    );
+function RecipeContainer({ recipe, index }) {
+  return (
+    <div className={`recipe-container ${index % 2 === 1 ? 'even' : ''}`}>
+      <div className="left-column">
+        <img className="lunch-image" src={recipe.image} alt={recipe.name} />
+      </div>
+      <div className="right-column">
+        <h2 className="recipe-name">{recipe.name}</h2>
+        <p className="recipe-description">{recipe.description}</p>
+        <button className="recipe-button">Get Recipe</button>
+      </div>
+    </div>
+  );
 }
 
-export default lunch
+function Lunch() {
+  const filteredRecipes = recipes.filter(recipe => recipe.id >= 6 && recipe.id <= 10);
+
+  return (
+    <>
+      <Header />
+
+      <main className='body'>
+        <h1 className="lunch-title">Lunch</h1>
+        <p className='lunch-description'>Enhance your midday break with our suggested lunch recipes, offering a delicious mix of flavors to satisfy your cravings.</p>
+
+        <div className='lunch-container'>
+          {filteredRecipes.map((recipe, index) => (
+            <RecipeContainer key={index} recipe={recipe} index={index} />
+          ))}
+        </div>
+
+      </main>
+      <Footer />
+    </>
+  );
+}
+
+export default Lunch;
