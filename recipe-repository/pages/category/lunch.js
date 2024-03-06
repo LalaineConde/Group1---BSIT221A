@@ -3,15 +3,15 @@ import Header from "/components/Constants/Header";
 import Footer from "/components/Constants/Footer";
 import recipes from "./recipe.json";
 
-function RecipeContainer({ recipe, index }) {
+function LunchContainer({ recipe, index }) {
   return (
     <div className={`recipe-container ${index % 2 === 1 ? 'even' : ''}`}>
       <div className="left-column">
         <img className="lunch-image" src={recipe.image} alt={recipe.name} />
       </div>
       <div className="right-column">
-        <h2 className="recipe-name">{recipe.name}</h2>
-        <p className="recipe-description">{recipe.description}</p>
+        <h2 className="lunch-name">{recipe.name}</h2>
+        <p className="lunch-description">{recipe.description}</p>
         <button className="recipe-button">Get Recipe</button>
       </div>
     </div>
@@ -31,7 +31,7 @@ function Lunch() {
 
         <div className='lunch-container'>
           {filteredRecipes.map((recipe, index) => (
-            <RecipeContainer key={index} recipe={recipe} index={index} />
+            <LunchContainer key={index} recipe={recipe} index={index} />
           ))}
         </div>
 
