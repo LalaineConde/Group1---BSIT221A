@@ -98,6 +98,108 @@
 
   //end of All Recipes layout
 
+//breakfast recipe layout
+
+.body{
+    height: 100%;
+    padding: 50px 70px;
+    background-color: #C9D7DD;
+}
+
+.breakfast-title{
+    text-align: start;
+    font-size: 64px;
+    color: #637A9F;
+
+}
+
+.breakfast-description{
+    font-size: 24px;
+    color: #637A9F;
+}
+
+.breakfast-container{
+    background-color: #C9D7DD;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: 350px; 
+   
+    gap: 30px;
+    margin: 50px 0;
+    background-color: #FEFBF6;
+    color: #637A9F;
+    border: 1px solid #637A9F;
+    border-radius: 10px;
+}
+  
+.left-column {
+    order: 1;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.right-column {
+    order: 2; 
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    justify-content: space-around;
+    align-items: baseline;  
+}
+  
+.recipe-container:nth-child(even) .left-column {
+    order: 2;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.recipe-container:nth-child(even) .right-column {
+    order: 1;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.Breakfast-image{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.recipe-name{
+    font-size: 36px;
+}
+
+.recipe-description{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.recipe-button{
+    font-size: 14px;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 3px;
+    background-color: #E8C872;
+    color: #637A9F;
+    align-self: end;
+}
+
+//end of breakfast recipe layout
+
 
 //lunch recipe layout
 
