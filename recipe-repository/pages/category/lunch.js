@@ -1,6 +1,6 @@
 import React from 'react';
 import recipes from "./recipe.json";
-import LunchContainer from './LunchContainer';
+import GetRecipe from '/components/GetRecipe';
 
 function Lunch() {
   const filteredRecipes = recipes.filter(recipe => recipe.id >= 6 && recipe.id <= 10);
@@ -12,7 +12,7 @@ function Lunch() {
 
       <div className='lunch-container'>
         {filteredRecipes.map((recipe, index) => (
-          <LunchContainer key={index} recipe={recipe} />
+          <GetRecipe key={index} recipe={recipe} />
         ))}
       </div>
     </main>
