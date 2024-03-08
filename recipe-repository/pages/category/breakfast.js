@@ -1,22 +1,7 @@
 import React from 'react';
-import Header from "/components/Constants/Header";
-import Footer from "/components/Constants/Footer";
 import recipes from "./recipe.json";
+import GetRecipe from '/components/GetRecipe';
 
-function RecipeContainer({ recipe, index }) {
-  return (
-    <div className={`recipe-container ${index % 2 === 1 ? 'even' : ''}`}>
-      <div className="left-column">
-        <img className="Breakfast-image" src={recipe.image} alt={recipe.name} />
-      </div>
-      <div className="right-column">
-        <h2 className="recipe-name">{recipe.name}</h2>
-        <p className="recipe-description">{recipe.description}</p>
-        <button className="recipe-button">Get Recipe</button>
-      </div>
-    </div>
-  );
-}
 
 function Breakfast() {
 
@@ -34,7 +19,7 @@ function Breakfast() {
       <div className='breakfast-container'> 
       
       {filteredRecipes.map((recipe, index) => (
-            <RecipeContainer key={index} recipe={recipe} index={index} />
+            <GetRecipe key={index} recipe={recipe} index={index} />
           ))}
       </div>
 
