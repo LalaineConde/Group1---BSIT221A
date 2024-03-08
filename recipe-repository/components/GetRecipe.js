@@ -16,7 +16,7 @@ function GetRecipe({ recipe, index }) {
           <p className="recipe-description">{recipe.description}</p>
           <div className="recipe-button-container">
           <Link href={`/category/RecipeCard?id=${recipe.id}`} passHref>
-            <Button className='recipe-button'>Go to Other Page</Button>
+            <Button className='recipe-button'>Get Recipe</Button>
           </Link>
         </div>
         </div>
