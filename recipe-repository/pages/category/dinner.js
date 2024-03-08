@@ -23,7 +23,7 @@ function Dinner() {
 
   return (
     <>
-      <Header />
+
 
       <main className='body'>
         <h1 className="dinner-title">Dinner</h1>
@@ -36,7 +36,7 @@ function Dinner() {
         </div>
 
       </main>
-      <Footer />
+ 
     </>
   );
 }

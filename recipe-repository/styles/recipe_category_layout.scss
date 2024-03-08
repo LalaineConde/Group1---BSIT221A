@@ -86,14 +86,18 @@
     text-align: justify;
 }
 
-.recipe-button{
+.recipe-button-container {
+    margin-left: auto;
+}
+
+.recipe-button {
     font-size: 14px;
     padding: 10px 32px;
     border: none;
     border-radius: 3px;
     background-color: #E8C872;
     color: #637A9F;
-    align-self: end;
+    cursor: pointer;
 }
 
   //end of All Recipes layout
@@ -402,7 +406,72 @@
     align-self: end;
 }
 
-//end of dinner layout
+//Recipe Card Page 
+
+.recipe-indiviual-container{
+    padding: 50px 70px;
+    background-color: #C9D7DD;
+    color: #637A9F;
+}
+.given-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.individual-recipe-title{
+    font-size: 64px; 
+}
+
+.individual-recipe-image {
+    max-width: 100%;
+    width:600px; /* Adjust the width to your preference */
+    max-height:100%;
+    height:500px; 
+    border-radius: 3px;
+  }
+
+
+.individual-recipe-description {
+    margin: 30px 100px;
+    text-align: justify;
+    font-size: 16px;
+    color: #637A9F;
+    margin-bottom: 20px;
+
+  }
+  
+  .ingredients, .steps, .cooking-time, .serving-size,
+  .classification, .nutrition-facts {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .list-ingredients, .list-nutrition-facts {
+    padding: 0;
+  }
+  
+  .bullet-list, .number-list {
+    margin-bottom: 8px;
+  }
+  
+  .cuisine-type, .origin-place {
+    margin-bottom: 10px;
+  }
+  
+  .nutrition-facts li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nutrition-facts li span {
+    font-weight: bold;
+  }
+
 
 @media (max-width: 720px) {
     

@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       
       
-     <Header/>
+
      
     <main className="main">
 
@@ -30,7 +30,7 @@ export default function Home() {
 
     </main>
 
-     <Footer/>
+
     </>
   );
 }

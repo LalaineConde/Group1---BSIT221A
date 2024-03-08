@@ -24,7 +24,7 @@ function Breakfast() {
 
   return (
     <>
-      <Header />
+
 
     <main className='body'>
     <h1 className="breakfast-title">Breakfast</h1>
@@ -39,7 +39,7 @@ function Breakfast() {
       </div>
 
       </main>
-      <Footer />
+
     </>
   );
 }

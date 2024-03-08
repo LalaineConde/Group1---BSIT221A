@@ -23,7 +23,7 @@ function Lunch() {
 
   return (
     <>
-      <Header />
+ 
 
       <main className='body'>
         <h1 className="lunch-title">Lunch</h1>
@@ -36,7 +36,7 @@ function Lunch() {
         </div>
 
       </main>
-      <Footer />
+ 
     </>
   );
 }
