@@ -1,15 +1,76 @@
+import React, { useState, useEffect } from 'react';
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import Header from "/components/Constants/Header"
-import Navbar from "/components/Constants/Navbar";
-import Footer from "/components/Constants/Footer"
-
-
-const inter = Inter({ subsets: ["latin"] });
+import recipe from './category/recipe.json';
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const [breakfastRecipe, setBreakfastRecipe] = useState(null);
+  const [lunchRecipe, setLunchRecipe] = useState(null);
+  const [dinnerRecipe, setDinnerRecipe] = useState(null);
+  const router = useRouter();
+
+  const initialMilliseconds = 1000; // 10 seconds
+  const dailyMilliseconds = 24 * 60 * 60 * 1000; // 1 day in milliseconds
+
+  useEffect(() => {
+    // Load recipes initially after 10 seconds
+    const initialInterval = setTimeout(() => {
+      const storedBreakfastRecipe = JSON.parse(localStorage.getItem('breakfastRecipe'));
+      const storedLunchRecipe = JSON.parse(localStorage.getItem('lunchRecipe'));
+      const storedDinnerRecipe = JSON.parse(localStorage.getItem('dinnerRecipe'));
+
+      if (storedBreakfastRecipe && storedLunchRecipe && storedDinnerRecipe) {
+        setBreakfastRecipe(storedBreakfastRecipe);
+        setLunchRecipe(storedLunchRecipe);
+        setDinnerRecipe(storedDinnerRecipe);
+      } else {
+        const randomBreakfastRecipe = getRandomRecipe(1, 5); 
+        const randomLunchRecipe = getRandomRecipe(6, 10); 
+        const randomDinnerRecipe = getRandomRecipe(11, 15); 
+
+        setBreakfastRecipe(randomBreakfastRecipe);
+        setLunchRecipe(randomLunchRecipe);
+        setDinnerRecipe(randomDinnerRecipe);
+
+        localStorage.setItem('breakfastRecipe', JSON.stringify(randomBreakfastRecipe));
+        localStorage.setItem('lunchRecipe', JSON.stringify(randomLunchRecipe));
+        localStorage.setItem('dinnerRecipe', JSON.stringify(randomDinnerRecipe));
+      }
+    }, initialMilliseconds);
+
+    // Load recipes once per day after the initial load
+    const dailyInterval = setInterval(() => {
+      const randomBreakfastRecipe = getRandomRecipe(1, 5); 
+      const randomLunchRecipe = getRandomRecipe(6, 10); 
+      const randomDinnerRecipe = getRandomRecipe(11, 15); 
+
+      setBreakfastRecipe(randomBreakfastRecipe);
+      setLunchRecipe(randomLunchRecipe);
+      setDinnerRecipe(randomDinnerRecipe);
+
+      localStorage.setItem('breakfastRecipe', JSON.stringify(randomBreakfastRecipe));
+      localStorage.setItem('lunchRecipe', JSON.stringify(randomLunchRecipe));
+      localStorage.setItem('dinnerRecipe', JSON.stringify(randomDinnerRecipe));
+    }, dailyMilliseconds);
+
+    return () => {
+      clearTimeout(initialInterval);
+      clearInterval(dailyInterval);
+    };
+  }, []); // Empty dependency array ensures it runs only once on component mount
+
+  const getRandomRecipe = (minId, maxId) => {
+    const filteredRecipes = recipe.filter(recipe => recipe.id >= minId && recipe.id <= maxId);
+    const randomIndex = Math.floor(Math.random() * filteredRecipes.length);
+    return filteredRecipes[randomIndex];
+  };
+
+  const handleRecipeClick = (recipeId) => {
+    // Redirect to the page where RecipeCard component is rendered
+    router.push(`/category/RecipeCard?id=${recipeId}`); // Assuming the route for RecipeCard is '/recipe-card'
+  };
+  
+
   return (
     <>
       <Head>
@@ -18,19 +79,34 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      
 
-     
-    <main className="main">
+      <main className="body">
+        <h1 className='titlefeatured-recipes'>Featured Recipes</h1>
+        <section className="recipe-sectionindex">
 
-      <section>
-        <p>Sample Content</p>
-      </section>
+          {/* Breakfast Recipe */}
+          <div onClick={() => handleRecipeClick(breakfastRecipe.id)} className="recipe-containerindex">
+            <h2 className="recipe-nameindex">{breakfastRecipe ? breakfastRecipe.name : ''}</h2>
+            <img className="recipe-imageindex" src={breakfastRecipe ? breakfastRecipe.image : ''} alt="Breakfast Recipe" />
+            <p className="recipe-descriptionindex">{breakfastRecipe ? breakfastRecipe.description : ''}</p>
+          </div>
 
-    </main>
+          {/* Lunch Recipe */}
+          <div onClick={() => handleRecipeClick(lunchRecipe.id)} className="recipe-containerindex">
+            <h2 className="recipe-nameindex">{lunchRecipe ? lunchRecipe.name : ''}</h2>
+            <img className="recipe-imageindex" src={lunchRecipe ? lunchRecipe.image : ''} alt="Lunch Recipe" />
+            <p className="recipe-descriptionindex">{lunchRecipe ? lunchRecipe.description : ''}</p>
+          </div>
 
+          {/* Dinner Recipe */}
+          <div onClick={() => handleRecipeClick(dinnerRecipe.id)} className="recipe-containerindex">
+            <h2 className="recipe-nameindex">{dinnerRecipe ? dinnerRecipe.name : ''}</h2>
+            <img className="recipe-imageindex" src={dinnerRecipe ? dinnerRecipe.image : ''} alt="Dinner Recipe" />
+            <p className="recipe-descriptionindex">{dinnerRecipe ? dinnerRecipe.description : ''}</p>
+          </div>
 
+        </section>
+      </main>
     </>
   );
 }
