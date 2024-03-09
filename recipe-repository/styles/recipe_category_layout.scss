@@ -535,6 +535,85 @@
 
 @media (min-width: 320px) and (max-width: 600px) {
 
+/* recipe card */
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual-recipe-image {
+    width: 100%;
+    height: auto;
+}
+
+.individual-recipe-description {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.ingredients,
+.steps,
+.cooking-time,
+.serving-size,
+.classification,
+.nutrition-facts {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center; /* Center-align the text */
+}
+
+.classification {
+    margin-bottom: 5px;
+}
+
+.bullet-list {
+    margin-bottom: 4px;
+    text-align: left; /* Align the bullet list text to the left */
+    padding: 5px;
+    list-style-position:inside; /* Place the bullets inside the list items */
+}
+
+.number-list {
+    text-align: justify;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.nutrition-facts {
+    margin-top: 25px;
+}
+
+.cuisine-type,
+.origin-place {
+    margin-bottom: 8px;
+}
+
+.nutrition-facts li span {
+    font-weight: bold;
+}
+
+.recipe-button {
+    align-self: center;
+}
+
+.recipe-indiviual-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.individual-recipe-title {
+    font-size: 28px;
+    margin: 10px;
+}
+
+.individual-recipe-description {
+    margin: 20px;
+    font-size: 14px;
+}
+
 
    
 }
