@@ -20,6 +20,7 @@ function RecipeCard() {
       <p className='individual-recipe-description'>{recipe.description}</p>         
       </div>
 
+      <div className='other-details'>
       <h3 className='ingredients'>Ingredients:</h3>
       <ul className='list-ingredients'>
         {recipe.ingredients.map((ingredient, index) => (
@@ -61,6 +62,8 @@ function RecipeCard() {
         <li className='bullet-list'>Calcium: {recipe.nutritionFacts.calcium}</li>
         <li className='bullet-list'>Iron: {recipe.nutritionFacts.iron}</li>
       </ul>
+    </div>
+
     </div>
   );
 }

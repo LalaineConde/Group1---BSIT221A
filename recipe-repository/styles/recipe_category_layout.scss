@@ -479,6 +479,14 @@
     
 }
 
+.other-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
 .individual-recipe-title{
     font-size: 64px; 
 }
@@ -642,17 +650,22 @@
 .nutrition-facts {
     font-size: 16px;
     margin-bottom: 15px;
-    text-align: center; /* Center align the bullet list */
+    text-align: center; 
 }
 
 .classification {
     margin-bottom: 5px;
 }
 
+.other-details{
+    align-items: center;
+    text-align: start;
+}
+
 .bullet-list {
     margin-bottom: 4px;
     padding: 5px;
-    list-style-position: inside; /* Center the bullet list items */
+   
 }
 
 .number-list {
