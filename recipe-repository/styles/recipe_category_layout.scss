@@ -530,10 +530,27 @@
 
 
 @media (max-width: 720px) {
-    
-}
-
+  }
+  
 @media (min-width: 320px) and (max-width: 600px) {
+    .body {
+        padding: 30px;
+        margin: 0;
+      }
+    .recipe-description {
+        font-size: 12px;
+    }
+    .recipe-name {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .AllRecipes-title,  .breakfast-title, .lunch-title, .dinner-title {
+        font-size: 37px;
+        margin-bottom: 8px;
+      }
+    .titlefeatured-recipes {
+        font-size: 30px;
+    }
 
 /* recipe card */
 .recipe-container {
@@ -615,8 +632,22 @@
 }
 
 
-   
-}
-
-
+      }
+    
+      .lunch-image {
+        width: 100%;
+        height: auto;
+        border-radius: 3px;
+      }
+    
+      .lunch-name {
+        font-size: 10px;
+      }
+    
+      .recipe-button {
+        align-self: right;
+        margin: 7px;
+        font-size: 12px; 
+        padding: 5px 15px;
+      }
 
