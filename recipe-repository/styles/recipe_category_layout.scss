@@ -826,11 +826,11 @@
 
       }
     
-      .lunch-image {
-        width: 100%;
+      .AllRecipes-image, .Breakfast-image, .lunch-image, .dinner-image {
+        max-width: 100%;
         height: auto;
         border-radius: 3px;
-      }
+    }
     
       .lunch-name {
         font-size: 10px;
