@@ -7,7 +7,7 @@ function Lunch() {
 
   return (
     <main className='body'>
-      <h1 className="lunch-title">Lunch</h1>
+      <h1 className='lunch-title'>Lunch</h1>
       <p className='lunch-description'>Enhance your midday break with our suggested lunch recipes, offering a delicious mix of flavors to satisfy your cravings.</p>
 
       <div className='lunch-container'>

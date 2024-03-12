@@ -1,173 +1,174 @@
-.layout-header, .layout-footer{
+.layout-header, .layout-footer {
     background-color: #637A9F;
-    font-size: 20px;
     text-align: center;
     padding: 30px;
     color: #FFF3CF;
 }
 
-.main{
+.footer {
+    font-size: 20px;
+}
+
+.main {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navbar {   
+.navbar {
     padding: 5px;
 
     .menuToggle {
         cursor: pointer;
         display: none;
-    
+
         .bar {
-          background-color: beige;
-          height: 3px;
-          width: 25px;
-          margin: 6px 0;
+            background-color: beige;
+            height: 3px;
+            width: 25px;
+            margin: 6px 0;
         }
-      }
-  
-    .nav-list {
-      list-style-type: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      
-      li {
-        margin: 0 20px;
-  
-        a{
-            position: relative;
-            text-decoration: none;
-            color: #FFF3CF;
-            font-size: 20px;
-            padding: 5px 0;
-        }
-        
-        a:hover{
-            color: #E8C872;
-          
-        }
-    
-        a::before {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            border-radius: 1px;
-            background-color: #E8C872;
-            transition: width 0.3s ease; 
-        }
-        
-        a:hover::before {
-            width: 100%; 
- 
-        }
-
     }
-}
 
-//humburger  icon
-.menuToggle {
-    cursor: pointer;
-    display: none;
-    text-align: start;
-}
-
-.navbar {
-    height: 55px;
-    box-shadow: 0 3px 6px var(--shadow-color);
-    background-color: var(--background-color);
-    color: var(--text-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 998;
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-
-.nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.nav-list li {
-    margin-left: 20px;
-}
-
-.sidebar-btn {
-    height: 28px;
-    width: 30px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-}
-
-.bar {
-    border-radius: 5px;
-    height: 3px;
-    width: 100%;
-    background-color: var(--text-color);
-    transition: transform 0.5s;
-}
-
-.menuToggle.active .bar:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-    background-color: #E8C872;
-}
-
-.menuToggle.active .bar:nth-child(2) {
-    opacity: 0;
-}
-
-.menuToggle.active .bar:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
-}
-
-@media (min-width: 320px) and (max-width: 600px)  {
     .nav-list {
-        flex-direction: column;
-        align-items: flex-start;
-  
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         li {
-          margin: 0;
-          padding: 5px;
-          width: 100%;
-          box-sizing: border-box;
+            margin: 0 20px;
+
+            a {
+                position: relative;
+                text-decoration: none;
+                color: #FFF3CF;
+                font-size: 20px;
+                padding: 5px 0;
+            }
+
+            a:hover {
+                color: #E8C872;
+            }
+
+            a::before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 2px;
+                border-radius: 1px;
+                background-color: #E8C872;
+                transition: width 0.3s ease;
+            }
+
+            a:hover::before {
+                width: 100%;
+            }
         }
     }
-    .menuToggle {
-        display: block;
-        align-self: flex-start;
-    }
-
-    .nav-list {
-        display: none;
-    }
-
-    .nav-list.active {
-        display: block;
-    }
-
-    .nav-list li {
-        margin-bottom: 15px;
-    }
 }
+    //humburger  icon
+    .menuToggle {
+        cursor: pointer;
+        display: none;
+        text-align: start;
+    }
+
+    @media (min-width: 320px) and (max-width: 600px) {
+        .navbar {
+            padding: 5px;
+        
+
+                .bar {
+                    background-color: beige;
+                    height: 3px;
+                    width: 25px;
+                    margin: 6px 0;
+                }
+           
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-list li {
+            margin-left: 20px;
+        }
+
+        .sidebar-btn {
+            height: 28px;
+            width: 30px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+
+        .bar {
+            border-radius: 5px;
+            height: 3px;
+            width: 100%;
+            background-color: var(--text-color);
+            transition: transform 0.5s;
+        }
+
+        .menuToggle.active .bar:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+            background-color: #E8C872;
+        }
+
+        .menuToggle.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .menuToggle.active .bar:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+
+        .nav-list {
+            flex-direction: column;
+            align-items: flex-start;
+
+            li {
+                margin: 0;
+                padding: 5px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+
+        .menuToggle {
+            display: block;
+            align-self: flex-start;
+        }
+
+        .nav-list {
+            display: none;
+        }
+
+        .nav-list.active {
+            display: block;
+        }
+
+        .nav-list li {
+            margin-bottom: 15px;
+        }
+    }
+    .footer {
+        font-size: 12px;
+    }
 }

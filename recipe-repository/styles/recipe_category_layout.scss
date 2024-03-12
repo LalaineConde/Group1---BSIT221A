@@ -44,6 +44,12 @@
     padding: 10px; 
   }
 
+  .modal-title{
+    text-align: start;
+    font-size: 64px;
+    color: #FFF3CF;
+  }
+
   .search-results-modal {
     position: fixed;
     top: 0;
@@ -59,11 +65,32 @@
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: black;
+    border-radius: 10px;
+    border: none;
+    
+  &::-webkit-scrollbar {
+    width: 12px; 
   }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #637a9fb3; 
+    border-radius: 6px; 
+    &:hover {
+      background-color: #637A9F; 
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #eee; 
+    border-radius: 6px; 
+  }
+  }
+
+
   .close-icon{
     position: absolute;
     transform: translateY(-50%);
-    right:20px;
+    right:10px;
     width:30px;
     height:30px;
     cursor: pointer;
@@ -74,28 +101,32 @@
     flex-direction: row;
     margin: 10px 20px;
     gap: 10px;
+    background-color: #FFF3CF;
+    border-radius: 10px;
+    cursor: pointer;
   }
 
   .image-container{
     flex-basis: 20%;
-    height: 100px;
+    height: 150px;
   }
   .details-container{
 display: flex;
     flex-basis: 70%;
     align-items: center;
-    justify-content: center;
+
   }
 
   .modal-image{
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    border-radius: 10px;
   }
 
   .modal-details{
- text-align: justify;
-    border: 1px solid black;
+    text-align: justify;
+    color: #637A9F;
+    font-size: 24px;
   }
 
 
@@ -131,6 +162,7 @@ display: flex;
     overflow: hidden;
     margin-top: 40px;
     margin-bottom: 30px; 
+    cursor: pointer;
 }
 
 .recipe-imageindex {
@@ -263,11 +295,6 @@ display: flex;
 
 //breakfast recipe layout
 
-.body{
-    height: 100%;
-    padding: 50px 70px;
-    background-color: #C9D7DD;
-}
 
 .breakfast-title{
     text-align: start;
@@ -366,11 +393,6 @@ display: flex;
 
 //lunch recipe layout
 
-.body{
-    height: 100%;
-    padding: 50px 70px;
-    background-color: #C9D7DD;
-}
 
 .lunch-title{
     text-align: start;
@@ -449,11 +471,6 @@ display: flex;
     font-size: 36px;
 }
 
-.lunch-description{
-    font-size: 18px;
-    text-align: justify;
-}
-
 .recipe-button{
     font-size: 14px;
     padding: 10px 32px;
@@ -468,11 +485,7 @@ display: flex;
 
 
 //dinner recipe layout
-.body{
-    height: 100%;
-    padding: 50px 70px;
-    background-color: #C9D7DD;
-}
+
 .dinner-title{
     text-align: start;
     font-size: 64px;
@@ -548,11 +561,6 @@ display: flex;
 
 .dinner-name{
     font-size: 36px;
-}
-
-.dinner-description{
-    font-size: 18px;
-    text-align: justify;
 }
 
 .recipe-button{
@@ -1028,6 +1036,46 @@ display: flex;
     margin: 20px;
     font-size: 14px;
 }
+
+.input-container {
+    padding: 50px 50px;
+
+ 
+  }
+
+  .search{
+    width:20px;
+    height:20px;
+  }
+
+  .search-results-modal{
+    padding: 10px;
+  }
+  .modal-title{
+
+    font-size: 24px;
+
+  }
+
+   .close-icon{
+    width: 20px; 
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px; 
+  }
+
+  .modal-container{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .modal-details{
+    margin: 10px 20px;
+    font-size: 12px;
+  }
+
+  
 
 }
 
