@@ -6,7 +6,7 @@
 
 //start of home
 .website-title-container{
-  padding: 50px 0;
+  padding-top: 50px;
   width: 100%;
   background-color: #E8C872;
 }
@@ -19,9 +19,7 @@
 
 .input-container {
     width: 100%;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 50px 80px;
     background-color: #E8C872;
   }
 
@@ -670,7 +668,7 @@ display: flex;
     }
 
     .website-title-container{
-      padding: 30px 15px;
+      padding-top: 30px;
     }
 
     .website-title{
@@ -899,7 +897,7 @@ display: flex;
       }
 
       .website-title-container{
-        padding: 15px 15px;
+        padding-top: 20px;
       }
 
       .website-title{
@@ -1069,9 +1067,7 @@ display: flex;
 }
 
 .input-container {
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 20px 30px;
   }
   
   .input-with-icon {
