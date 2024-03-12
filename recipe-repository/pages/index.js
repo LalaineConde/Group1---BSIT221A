@@ -9,7 +9,7 @@ export default function Home() {
   const [dinnerRecipe, setDinnerRecipe] = useState(null);
   const router = useRouter();
 
-  const dailyMilliseconds = 24 * 60 * 60; 
+  const dailyMilliseconds = 24 * 60 * 60 * 10; 
 
   useEffect(() => {
     const date = new Date();
