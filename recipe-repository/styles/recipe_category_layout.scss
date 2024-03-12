@@ -3,14 +3,28 @@
     padding: 50px 70px;
     background-color: #C9D7DD;
 }
+
 //start of home
+.website-title-container{
+  padding: 50px 0;
+  width: 100%;
+  background-color: #E8C872;
+}
+
+.website-title{
+  text-align: center;
+  font-size: 96px;
+  color: #637A9F;
+}
 
 .input-container {
     width: 100%;
-    padding: 50px 100px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
     background-color: #E8C872;
- 
   }
+
   .input-with-icon-container{
     position: relative;
     padding:0;
@@ -654,6 +668,14 @@ display: flex;
         padding: 50px 30px;
         background-color: #C9D7DD;
     }
+
+    .website-title-container{
+      padding: 30px 15px;
+    }
+
+    .website-title{
+      font-size: 64px;
+    }
     
     .titlefeatured-recipes{
         text-align: center;
@@ -875,6 +897,15 @@ display: flex;
         padding: 30px;
         margin: 0;
       }
+
+      .website-title-container{
+        padding: 15px 15px;
+      }
+
+      .website-title{
+        font-size: 32px;
+      }
+
     .recipe-description {
         font-size: 12px;
     }
@@ -1038,9 +1069,13 @@ display: flex;
 }
 
 .input-container {
-    padding: 50px 50px;
-
- 
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+  
+  .input-with-icon {
+  height: 20px;
   }
 
   .search{
